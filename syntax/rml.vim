@@ -32,6 +32,6 @@ syn keyword rmlSignal one pre last default
 
 hi link rmlStatemets Keyword
 hi link rmlIterators Keyword
-hi link rmlSignal Keyword
+hi link rmlSignal    Keyword
 
 let b:current_syntax = "rml"

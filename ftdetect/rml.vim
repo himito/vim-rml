@@ -4,6 +4,3 @@
 " Latest Revision: 6 March 2016
 
 autocmd BufNewFile,BufRead *.rml setfiletype rml
-
-" Behaves like Ocaml
-runtime! ftplugin/ocaml.vim
