@@ -19,4 +19,19 @@ else
    runtime! syntax/ocaml.vim
 endif
 
+"##########################################################
+"                 ReactiveML Syntax
+"##########################################################
+
+" Keywords
+syn keyword rmlStatemets process proc nothing pause halt run
+syn keyword rmlIterators loop end while done for to do downto dopar
+syn keyword rmlIterators control until with when
+syn keyword rmlSignal signal default gather emit present await immediate
+syn keyword rmlSignal one pre last default
+
+hi link rmlStatemets Keyword
+hi link rmlIterators Keyword
+hi link rmlSignal Keyword
+
 let b:current_syntax = "rml"
